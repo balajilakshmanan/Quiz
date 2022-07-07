@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    float: left;
+    background-color: rgb(230, 224, 224);
+}
+
+.header button{
+    border: none;
+    outline: none;
+    color: #000;
+    padding-right: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+    background: rgb(230, 224, 224);
+}
+
+.card-component{    
+    /* background-color:rgb(211, 207, 207); */
+    margin: 23px 0 40px 50px;
+    display: flex;
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 3px 3px lightgray;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+}
+
+.main-body {
+    background: white;
+    text-align: center;
+}
+
+.option-style{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 10% 0;
+}
+
+.table-row{
+    padding: 10%;
+}
+
+.main-wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+}
+
+tr{
+    /* margin: 0; */
+    /* padding: 10%; */
+    text-align: left;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    /* border: 1px solid blue; */
+}
+
+td{
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    background: rgb(230, 224, 224);
+}
+
+.footer button{
+    background-color: red;
+}
+
+.main-box{
+    margin: 50px 220px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color:rgb(201, 197, 197);
+}
